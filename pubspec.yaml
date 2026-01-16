@@ -1,0 +1,28 @@
+name: cpap_data_reader
+description: "An app to read CPAP machine data from SD cards."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  # File Access
+  file_picker: ^6.1.1
+  path_provider: ^2.1.0
+  # Charts
+  fl_chart: ^0.66.0
+  # PDF Generation
+  pdf: ^3.10.6
+  printing: ^5.11.2
+  # Async Data
+  provider: ^6.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
